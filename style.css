@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap'); */
+
+@font-face {
+    font-family: handwritten;
+    src: url(Ettlora-PKz3d.otf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "handwritten", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    /* margin-bottom: 20px; */
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.5s; 
+    user-select: none;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+    30% {
+        opacity: 0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
