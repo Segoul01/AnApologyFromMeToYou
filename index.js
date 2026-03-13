@@ -16,6 +16,8 @@ var h1Headings = [
     "I won't message you for a week",
     "I know I don't deserve you",
     "but I can't seem to accept seeing us getting further apart.",
+    "In the meanwhile",
+    "I'll learn sign language, so we can talk in the library ಥ_ಥ",
     "That's all",
     "Love ya"
 ]
